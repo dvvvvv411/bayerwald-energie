@@ -45,7 +45,7 @@ const Header = () => {
               <img 
                 src="/bayerwald-logo.png" 
                 alt="BAYERWALD Energie" 
-                className="h-20"
+                className="h-24"
               />
             </Link>
 
@@ -83,7 +83,7 @@ const Header = () => {
               <img 
                 src="/bayerwald-logo.png" 
                 alt="BAYERWALD Energie" 
-                className="h-18"
+                className="h-20"
               />
             </Link>
 
