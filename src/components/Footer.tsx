@@ -12,7 +12,7 @@ const Footer = () => {
             <img 
               src="/bayerwald-logo.png" 
               alt="BAYERWALD Energie" 
-              className="h-20"
+              className="h-24 brightness-0 invert"
             />
             <p className="text-gray-300 leading-relaxed">
               Ihr zuverlässiger Partner für Heizöl in Deutschland mit 20 Jahren Erfahrung. 
