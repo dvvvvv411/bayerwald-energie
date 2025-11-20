@@ -14,7 +14,7 @@ const AGB = () => {
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">Allgemeine Geschäftsbedingungen</h1>
             <p className="text-xl text-gray-600">
-              Gültig ab 01.01.2024 für HILL-Clear Projects GmbH
+              Gültig ab 01.01.2024 für BAYERWALD Energie GmbH
             </p>
           </div>
 
@@ -27,7 +27,7 @@ const AGB = () => {
             </CardHeader>
             <CardContent>
               <p className="text-gray-700 text-sm leading-relaxed">
-                Diese Allgemeinen Geschäftsbedingungen gelten für alle Lieferungen und Leistungen der HILL-Clear Projects GmbH, Rottmannstr. 22a, 80333 München (nachfolgend "Verkäufer" genannt) an Verbraucher und Unternehmer (nachfolgend "Kunden" genannt). Abweichende Bedingungen des Kunden werden nicht anerkannt, es sei denn, der Verkäufer stimmt ihrer Geltung ausdrücklich schriftlich zu.
+                Diese Allgemeinen Geschäftsbedingungen gelten für alle Lieferungen und Leistungen der BAYERWALD Energie GmbH, Am Meierhof 11, 94142 Fürsteneck (nachfolgend "Verkäufer" genannt) an Verbraucher und Unternehmer (nachfolgend "Kunden" genannt). Abweichende Bedingungen des Kunden werden nicht anerkannt, es sei denn, der Verkäufer stimmt ihrer Geltung ausdrücklich schriftlich zu.
               </p>
             </CardContent>
           </Card>
@@ -87,7 +87,7 @@ const AGB = () => {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-2">Lieferzeit</h3>
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  Die Lieferzeit beträgt in der Regel 1-3 Werktage. Express-Lieferungen sind nach Absprache möglich.
+                  Die Lieferzeit beträgt in der Regel 4-7 Werktage. Express-Lieferungen sind nach Absprache möglich.
                 </p>
               </div>
 

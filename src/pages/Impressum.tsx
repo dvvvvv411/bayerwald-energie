@@ -28,7 +28,7 @@ const Impressum = () => {
               <CardContent className="space-y-3">
                 <div>
                   <h3 className="font-semibold text-gray-900">Firma:</h3>
-                  <p className="text-gray-700">HILL-Clear Projects GmbH</p>
+                  <p className="text-gray-700">BAYERWALD Energie GmbH</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Rechtsform:</h3>
@@ -36,15 +36,15 @@ const Impressum = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Handelsregister:</h3>
-                  <p className="text-gray-700">HRB 267211</p>
+                  <p className="text-gray-700">HRB 6535</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Registergericht:</h3>
-                  <p className="text-gray-700">Amtsgericht München</p>
+                  <p className="text-gray-700">Amtsgericht Passau</p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">USt-IdNr.:</h3>
-                  <p className="text-gray-700">DE970703271</p>
+                  <p className="text-gray-700">DE427997811</p>
                 </div>
               </CardContent>
             </Card>
@@ -62,19 +62,11 @@ const Impressum = () => {
                   <div>
                     <h3 className="font-semibold text-gray-900">Anschrift:</h3>
                     <p className="text-gray-700">
-                      HILL-Clear Projects GmbH<br />
-                      Rottmannstr. 22a<br />
-                      80333 München<br />
+                      BAYERWALD Energie GmbH<br />
+                      Am Meierhof 11<br />
+                      94142 Fürsteneck<br />
                       Deutschland
                     </p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center space-x-3">
-                  <Phone className="text-primary-600" size={20} />
-                  <div>
-                    <h3 className="font-semibold text-gray-900">Telefon:</h3>
-                    <p className="text-gray-700">089 416 133 45</p>
                   </div>
                 </div>
                 
@@ -82,7 +74,7 @@ const Impressum = () => {
                   <Mail className="text-primary-600" size={20} />
                   <div>
                     <h3 className="font-semibold text-gray-900">E-Mail:</h3>
-                    <p className="text-gray-700">info@hill-heizoel.de</p>
+                    <p className="text-gray-700">info@bayerwald-energie.de</p>
                   </div>
                 </div>
               </CardContent>
@@ -94,7 +86,7 @@ const Impressum = () => {
               <CardTitle>Geschäftsführung</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-700">Michael Hillmann</p>
+              <p className="text-gray-700">Reinhold Riedl</p>
             </CardContent>
           </Card>
 

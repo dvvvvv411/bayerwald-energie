@@ -6,9 +6,9 @@ const CompanySection = () => {
   const stats = [
     {
       icon: Building,
-      number: '2003',
+      number: '2016',
       label: 'Gegründet',
-      description: 'Über 20 Jahre Erfahrung'
+      description: '20 Jahre Erfahrung'
     },
     {
       icon: Users,
@@ -35,10 +35,10 @@ const CompanySection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Über HILL-Heizöl
+            Über BAYERWALD Energie
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ihr zuverlässiger Partner für Heizöl in Deutschland seit über 20 Jahren. 
+            Ihr zuverlässiger Partner für Heizöl in Deutschland mit 20 Jahren Erfahrung. 
             Wir stehen für Qualität, Service und faire Preise.
           </p>
         </div>
@@ -51,9 +51,9 @@ const CompanySection = () => {
             </h3>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                Seit der Gründung im Jahr 2003 haben wir uns zu einem der führenden 
-                Heizöl-Anbieter in Deutschland entwickelt. Was als kleines Familienunternehmen 
-                in München begann, ist heute ein zuverlässiger Partner für über 100.000 
+                Seit der Gründung im Jahr 2016 haben wir uns mit 20 Jahren Erfahrung zu einem der führenden 
+                Heizöl-Anbieter in Deutschland entwickelt. Was mit langjähriger Branchenerfahrung 
+                in Fürsteneck begann, ist heute ein zuverlässiger Partner für über 100.000 
                 Kunden in ganz Deutschland.
               </p>
               <p>
@@ -65,7 +65,7 @@ const CompanySection = () => {
               <p>
                 Als bayerisches Unternehmen kennen wir die Bedürfnisse unserer Kunden 
                 genau und sind stolz darauf, einen Beitrag zur Energieversorgung in 
-                unserem schönen Bayern zu leisten.
+                ganz Deutschland zu leisten.
               </p>
             </div>
           </div>
@@ -77,7 +77,7 @@ const CompanySection = () => {
                 <div className="h-96 w-full">
                   <img 
                     src="https://i.imgur.com/xPI8LoI.jpeg" 
-                    alt="HILL-Heizöl Unternehmen" 
+                    alt="BAYERWALD Energie Unternehmen" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -88,7 +88,7 @@ const CompanySection = () => {
             <div className="absolute -bottom-6 -right-6 bg-white rounded-full p-4 shadow-lg">
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary-600">20+</div>
-                <div className="text-xs text-gray-600">Jahre</div>
+                <div className="text-xs text-gray-600">Jahre Erfahrung</div>
               </div>
             </div>
           </div>
