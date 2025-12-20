@@ -47,7 +47,7 @@ const Footer = () => {
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center space-x-3">
                 <Mail size={16} className="text-primary-400" />
-                <span>info@bayerwald-energie.de</span>
+                <span>info@bayerwald-heizoel.de</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin size={16} className="text-accent-orange-400 mt-1" />
