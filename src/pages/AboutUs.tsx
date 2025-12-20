@@ -89,7 +89,7 @@ const AboutUs = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="outline" className="border-primary-600 text-primary-600 hover:bg-primary-50">
               <Mail className="mr-2" size={20} />
-              info@bayerwald-energie.de
+              info@bayerwald-heizoel.de
             </Button>
           </div>
         </div>
@@ -341,7 +341,7 @@ const AboutUs = () => {
                     <div className="space-y-3">
                       <div className="flex items-center">
                         <Mail className="text-primary-600 mr-3" size={20} />
-                        <span className="text-gray-700">info@bayerwald-energie.de</span>
+                        <span className="text-gray-700">info@bayerwald-heizoel.de</span>
                       </div>
                     </div>
                   </div>

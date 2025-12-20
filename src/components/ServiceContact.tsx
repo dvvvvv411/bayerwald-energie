@@ -9,7 +9,7 @@ const ServiceContact = () => {
     {
       icon: Bell,
       title: 'Online-Service',
-      info: 'info@bayerwald-energie.de',
+      info: 'info@bayerwald-heizoel.de',
       description: 'E-Mail-Anfragen und Online-Bestellung',
       availability: 'Antwort innerhalb 2 Stunden'
     },
