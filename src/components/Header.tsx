@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Link, useLocation } from 'react-router-dom';
 import { cn } from "@/lib/utils";
 import { scrollToCalculator, scrollToCalculatorFromOtherPage } from '../utils/scrollToCalculator';
+import HandelsblattBanner from './HandelsblattBanner';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,8 +41,8 @@ const Header = () => {
           </div>
 
           {/* Main Navigation */}
-          <div className="flex justify-between items-center py-4">
-            <Link to="/" className="flex items-center">
+          <div className="flex justify-between items-center py-4 gap-6">
+            <Link to="/" className="flex items-center flex-shrink-0">
               <img 
                 src="/bayerwald-logo.png" 
                 alt="BAYERWALD Energie" 
@@ -49,7 +50,12 @@ const Header = () => {
               />
             </Link>
 
-            <nav className="flex items-center space-x-8">
+            {/* Handelsblatt Banner - Desktop */}
+            <div className="flex-1 max-w-xl">
+              <HandelsblattBanner />
+            </div>
+
+            <nav className="flex items-center space-x-8 flex-shrink-0">
               <Link to="/" className="text-gray-700 hover:text-accent-orange-500 transition-colors font-medium">
                 Startseite
               </Link>
@@ -96,6 +102,11 @@ const Header = () => {
                 {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
               </button>
             </div>
+          </div>
+
+          {/* Handelsblatt Banner - Mobile */}
+          <div className="px-4 pb-4">
+            <HandelsblattBanner />
           </div>
 
           {/* Mobile Navigation Menu */}
