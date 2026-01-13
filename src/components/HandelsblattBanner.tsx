@@ -13,7 +13,7 @@ const HandelsblattBanner = () => {
       href="https://handels-blatt.de/artikel/dieses-gesetz-sorgt-fuer2"
       target="_blank"
       rel="noopener noreferrer"
-      className="block bg-white border border-gray-200 rounded-lg p-3 lg:p-4 shadow-sm hover:shadow-md transition-all hover:border-[#ef6400]/30"
+      className="block bg-white border border-gray-200 p-3 lg:p-4 shadow-sm hover:shadow-md transition-shadow"
       style={{ fontFamily: "'Source Sans Pro', 'Open Sans', sans-serif" }}
     >
       {/* Header mit H+ Icon und Handelsblatt Logo */}
